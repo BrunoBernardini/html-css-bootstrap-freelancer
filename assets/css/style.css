@@ -9,3 +9,17 @@
   display: table;
   clear: both;
 }
+
+/* #1abc9c */
+
+.debug{
+  background-color: rgba(95, 158, 160, .2);
+  border: 1px solid black;
+  min-height: 80px;
+}
+
+/* -------------------------------------------- */
+
+.jumbotron{
+  min-height: 400px;
+}
