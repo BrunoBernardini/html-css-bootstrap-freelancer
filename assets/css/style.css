@@ -23,3 +23,11 @@
 .jumbotron{
   min-height: 400px;
 }
+
+.about .container{
+  padding: 0 50px;
+}
+
+.contact .container{
+  padding: 0 60px;
+}
