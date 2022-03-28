@@ -5,14 +5,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css' integrity='sha512-GQGU0fMMi238uA+a/bdWJfpUGKUkBdgfFdgBm72SUQ6BeyWjoY/ton0tEjH+OSH9iP4Dfh+7HM0I9f5eR0L/4w==' crossorigin='anonymous'/>
+  
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.css' integrity='sha512-c9N/Xq0n4rQdyCXF4RgrRYAAOSnNJDp8NWILsSUx+33zWyaMbXXvqajgO0UXybRdTGVpxq3FBrcGwabkWsT8OA==' crossorigin='anonymous'/>
+
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Bootstrap Freelancer</title>
 </head>
 <body>
   
-  <header>
-    <div class="container debug">
+  <header class="debug">
+    <nav class="container debug">
       <div class="row">
         <div class="col-3 debug">
           Start bootstrap
@@ -25,7 +27,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </nav>
   </header>
   
   <div class="jumbotron debug">
@@ -34,47 +36,72 @@
     </div>
   </div>
   <div class="main">
-    <div class="portfolio debug">
-      <h2>portfolio</h2>
+    <section id="portfolio" class="debug min-h-300">
+      <div class="container debug text-center">
+        <h1>Portfolio</h1>
+        <div>----stella----</div>
+      </div>
       <div class="container debug">
         <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 debug">
-          <div class="col debug"></div>
-          <div class="col debug"></div>
-          <div class="col debug"></div>
-          <div class="col debug"></div>
-          <div class="col debug"></div>
-          <div class="col debug"></div>
+          <div class="col debug">
+            <div class="card"></div>
+          </div>
+          <div class="col debug">
+            <div class="card"></div>
+          </div>
+          <div class="col debug">
+            <div class="card"></div>
+          </div>
+          <div class="col debug">
+            <div class="card"></div>
+          </div>
+          <div class="col debug">
+            <div class="card"></div>
+          </div>
+          <div class="col debug">
+            <div class="card"></div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="about debug">
-      <h2>about</h2>
-      <div class="container debug">
-        <div class="row row-cols-1 row-cols-md-2">
-          <div class="col debug"></div>
-          <div class="col debug"></div>
+    </section>
+    <section id="about" class="debug">
+      <div class="container debug text-center">
+        <h1>About</h1>
+        <div>----stella----</div>
+      </div>
+      <div class="container-60 debug">
+        <div class="container-fluid">
+          <div class="row row-cols-1 row-cols-md-2">
+            <div class="col debug">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, earum sequi. Dicta asperiores necessitatibus eveniet sapiente corrupti deleniti, atque hic. Eveniet minima error assumenda iste obcaecati ullam? Impedit, itaque reiciendis?</div>
+            <div class="col debug">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quibusdam magnam, aut placeat eum, dolores accusamus sequi quo quaerat nemo asperiores nostrum soluta unde ex nam laboriosam necessitatibus magni similique!</div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="contact debug">
-      <h2>contact me</h2>
-      <div class="container debug">
+    </section>
+    <section id="contact" class="debug min-h-300">
+      <div class="container text-center">
+        <h1>Contact</h1>
+        <div>----stella----</div>
+      </div>
+      <div class="container-60 debug min-h-300">
         list
       </div>
-    </div>
+    </section>
   </div>
 
   <div class="footer">
     <div class="footer-top debug">
       <div class="container">
         <div class="row row-cols-1 row-cols-md-3">
-          <div class="col debug"></div>
-          <div class="col debug"></div>
-          <div class="col debug"></div>
+          <div class="col debug">sx</div>
+          <div class="col debug">c</div>
+          <div class="col debug">dx</div>
         </div>
       </div>
     </div>
-    <div class="footer-bottom debug"></div>
+    <div class="footer-bottom debug">
+      copyright
+    </div>
   </div>
 
 </body>
