@@ -145,6 +145,21 @@ main h1{
   border-radius: 15px;
   overflow: hidden;
   margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.layover{
+  background-color: rgba(26, 188, 155, .4);
+  display: none;
+}
+
+.card:hover .layover{
+  display: flex;
+}
+
+.card .layover .bi-plus-lg{
+  color: white;
+  font-size: 60px;
 }
 
 /* About */
@@ -233,6 +248,7 @@ footer .social{
   border: 1px solid white;
   border-radius: 50px;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 footer .social:last-of-type{
@@ -248,4 +264,12 @@ footer .footer-bottom{
   padding-top: 39px;
   font-size: 14px;
   height: 110px;
+}
+
+/* MEDIA */
+
+@media screen and (max-width: 768px) {
+  .navbar.custom-navbar .navbar-brand h2{
+    font-size: 1rem;
+  }
 }
