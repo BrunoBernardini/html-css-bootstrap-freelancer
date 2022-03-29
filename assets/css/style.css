@@ -133,10 +133,6 @@ main h1{
   margin-bottom: 60px;
 }
 
-/* #portfolio h1{
-  margin-bottom: 14px;
-} */
-
 #portfolio .starline{
   margin-bottom: 15px;
 }
@@ -148,6 +144,28 @@ main h1{
 }
 
 /* About */
+
+#about{
+  padding-top: 78px;
+}
+
+#about h1{
+  margin-bottom: 14px;
+}
+
+#about .starline{
+  margin-bottom: 15px;
+}
+
+#about .col{
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+#about button{
+  font-size: 18px;
+  margin-bottom: 58px;
+}
 
 /* Contact */
 
