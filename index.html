@@ -138,17 +138,34 @@
         <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-download"></i> Download</button>
       </div>
     </section>
-    <section id="contact" class="debug min-h-300">
+
+    <section id="contact">
       <div class="container-60 text-center">
-        <h1>Contact</h1>
+        <h1 class="black">CONTACT ME</h1>
         <div class="starline d-flex align-items-center justify-content-between black">
           <div class="line-piece"></div>
           <i class="bi bi-star-fill"></i>
           <div class="line-piece"></div>
         </div>
       </div>
-      <div class="container-60 debug min-h-300">
-        list
+      <div class="container-60">
+        <form>
+          <div class="container-fluid">
+            <div>
+              <input type="text" class="form-control" id="name" placeholder="Name">
+            </div>
+            <div>
+              <input type="email" class="form-control" id="email" placeholder="Email Address" aria-describedby="emailHelp">
+            </div>
+            <div>
+              <input type="tel" class="form-control" id="phone" placeholder="Phone Number">
+            </div>
+            <div>
+              <textarea class="form-control" rows="4" id="msg" placeholder="Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+          </div>
+        </form>
       </div>
     </section>
   </main>
